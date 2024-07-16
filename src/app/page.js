@@ -1,10 +1,11 @@
-import Header1 from "@/components/Header1";
-import Header2 from "@/components/Header2";
-import Header3 from "@/components/Header3";
-import Banner from "@/components/Banner";
-import Banner2 from "@/components/Banner2";
+import Header1 from "@/_components/Header1";
+import Header2 from "@/_components/Header2";
+import Header3 from "@/_components/Header3";
+import Banner from "@/_components/Banner";
+import Banner2 from "@/_components/Banner2";
 
 import Image from "next/image";
+import Footer from "@/_components/Footer";
 export default function Home() {
   return (
    <>
@@ -13,6 +14,7 @@ export default function Home() {
    <Header3/>
    <Banner/>
    <Banner2/>
+   <Footer/>
  
    </>
   );
